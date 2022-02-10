@@ -28,6 +28,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
       <Bio />
+      <a href="https://gatsbystarterblog17163.gatsbyjs.io/new-page/">Hello</a>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
