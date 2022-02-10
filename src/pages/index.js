@@ -17,7 +17,8 @@ const BlogIndex = ({ data, location }) => {
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
+          gatsbyconfig.js).
+          <a href="https://gatsbystarterblog17163.gatsbyjs.io/new-page/">Hello</a>
         </p>
       </Layout>
     )
